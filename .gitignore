@@ -1,2 +1,6 @@
 # CocoaPods
 Pods/
+
+# Xcode User Data (beinhaltet .xcuserstate)
+xcuserdata/
+*.xcuserdata
