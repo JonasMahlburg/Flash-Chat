@@ -19,11 +19,11 @@
 		0B62819E235F0F4D00E35CAF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0B62819D235F0F4D00E35CAF /* README.md */; };
 		7901E87CDCB448261D6AEFA1 /* Pods_Flash_Chat_iOS13.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A080FAB2BC0F86EF6A001B9 /* Pods_Flash_Chat_iOS13.framework */; };
 		DD23D08D301773770076EF55 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DD23D08C3017736A0076EF55 /* .gitignore */; };
-		DDC0ED4B30187BFD001279A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDC0ED4A30187BFD001279A3 /* GoogleService-Info.plist */; };
 		DDC0ED4D30189709001279A3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC0ED4C30189709001279A3 /* Constants.swift */; };
 		DDC0ED5030189BA2001279A3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC0ED4F30189BA2001279A3 /* Message.swift */; };
 		DDC0ED533018A646001279A3 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC0ED513018A646001279A3 /* MessageCell.swift */; };
 		DDC0ED543018A646001279A3 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC0ED523018A646001279A3 /* MessageCell.xib */; };
+		DDC0ED563018B7DA001279A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDC0ED553018B7DA001279A3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,11 +42,11 @@
 		9A080FAB2BC0F86EF6A001B9 /* Pods_Flash_Chat_iOS13.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat_iOS13.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F49C691324A27312257A819 /* Pods-Flash Chat iOS13.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.release.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.release.xcconfig"; sourceTree = "<group>"; };
 		DD23D08C3017736A0076EF55 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		DDC0ED4A30187BFD001279A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DDC0ED4C30189709001279A3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DDC0ED4F30189BA2001279A3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		DDC0ED513018A646001279A3 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		DDC0ED523018A646001279A3 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		DDC0ED553018B7DA001279A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E161E40D8C30AE70AF6812EB /* Pods-Flash Chat iOS13.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat iOS13.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat iOS13/Pods-Flash Chat iOS13.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +93,7 @@
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
 				0B628181235DEE8400E35CAF /* LaunchScreen.storyboard */,
 				0B628184235DEE8400E35CAF /* Info.plist */,
-				DDC0ED4A30187BFD001279A3 /* GoogleService-Info.plist */,
+				DDC0ED553018B7DA001279A3 /* GoogleService-Info.plist */,
 				DDC0ED4C30189709001279A3 /* Constants.swift */,
 			);
 			path = "Flash Chat iOS13";
@@ -211,8 +211,8 @@
 				0B628180235DEE8400E35CAF /* Assets.xcassets in Resources */,
 				0B62819E235F0F4D00E35CAF /* README.md in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
+				DDC0ED563018B7DA001279A3 /* GoogleService-Info.plist in Resources */,
 				DDC0ED543018A646001279A3 /* MessageCell.xib in Resources */,
-				DDC0ED4B30187BFD001279A3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
