@@ -4,6 +4,9 @@ Pods/
 # Xcode User Data (beinhaltet .xcuserstate)
 xcuserdata/
 *.xcuserdata
+.DS_Store
+.DS_Store?
+._*
 
 # Firebase
 GoogleService-Info.plist
